@@ -93,3 +93,14 @@ function printTime() {
 }
 
 // printTime()
+
+function absoluteNineteen(num){
+    let specifiedNumber = 19 - num 
+        if(specifiedNumber < 0 ){
+            return (specifiedNumber*-1)*3
+        } else {
+            return specifiedNumber 
+        }
+    
+}
+console.log(absoluteNineteen(-6))
