@@ -76,4 +76,16 @@ function largest(a, b, c) {
 function getExtension(file) {
     return `.${file.split('.')[1]}`
 }
-console.log(getExtension("app.js"))
+// console.log(getExtension("app.js"))
+
+function isLeapYear(i) {
+    if ( i % 400 ===0|| i % 4 === 0 && i % 100 !== 0){
+        return true 
+    } else {
+        return false 
+    }
+}
+// console.log(isLeapYear(1999))
+
+
+
