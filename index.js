@@ -38,3 +38,12 @@ function multiply(a, b) {
 }
 
 // console.log(multiply(3, 7.5))
+
+function add(a,b) {
+    if (a === b){
+        return 3*(a*b) 
+    }else {
+        return a*b
+    }
+}
+//console.log(add(3,3))
