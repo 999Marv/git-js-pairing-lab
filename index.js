@@ -65,7 +65,15 @@ function betweenTwentyAndFourty(num) {
 }
 
 // console.log(betweenTwentyAndFourty(299))
-function  largest(a,b,c){
-return Math.max(a,b,c)
+function largest(a, b, c) {
+    return Math.max(a, b, c)
 }
-console.log(largest(4,6,8))
+// console.log(largest(4,6,8))
+
+
+//                      BONUS QUESTIONS
+
+function getExtension(file) {
+    return `.${file.split('.')[1]}`
+}
+console.log(getExtension("app.js"))
