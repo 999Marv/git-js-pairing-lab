@@ -55,7 +55,13 @@ function isNegative(num) {
 
 // console.log(isNegative(-2))
 
-function triangleArea(a,b) {
-  return .5 *(a * b)
+function triangleArea(a, b) {
+    return .5 * (a * b)
 }
 // console.log(triangleArea(5,7))
+
+function betweenTwentyAndFourty(num) {
+    return num > 20 && num < 40
+}
+
+// console.log(betweenTwentyAndFourty(299))
