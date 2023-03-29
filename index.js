@@ -87,5 +87,9 @@ function isLeapYear(i) {
 }
 // console.log(isLeapYear(1999))
 
+function printTime() {
+ let time = new Date();
+ console.log(`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`)
+}
 
-
+// printTime()
