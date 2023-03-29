@@ -18,17 +18,23 @@ function multiplesOfThree() {
 
 function multiplesOfThreeorFive() {
     for (let i = 0; i <= 100; i++) {
-        if (i % 3 === 0 || i % 5 === 0 ) {
+        if (i % 3 === 0 || i % 5 === 0) {
             console.log(i);
         }
     }
 }
 
-multiplesOfThreeorFive()
+// multiplesOfThreeorFive()
 
-function untilNum(num){
-for (let i = 1; i <= num; i++) {
-    console.log(i)
-}
+function untilNum(num) {
+    for (let i = 1; i <= num; i++) {
+        console.log(i)
+    }
 }
 // untilNum(9)
+
+function multiply(a, b) {
+    return a * b
+}
+
+// console.log(multiply(3, 7.5))
